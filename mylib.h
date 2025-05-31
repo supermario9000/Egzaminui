@@ -13,6 +13,7 @@
 #include <list>
 #include <iterator> //naudosiu std::advance list iteraciju skaiciavime
 #include <filesystem>
+#include <unordered_map>
 
 #ifdef _WIN32
 #include <windows.h>
@@ -44,6 +45,7 @@ using std::ofstream;
 using std::chrono::high_resolution_clock;
 using std::chrono::duration;
 using std::filesystem::create_directories; //kad galetu sukurti student_files aplanka
+using std::unordered_map;
 
 std::mt19937 gen(std::random_device{}()); // atsitiktiniu skaiciu generatorius, sugeneruotas viena karta kad kaskart nereiktu sukurti atskiro mt19937
 

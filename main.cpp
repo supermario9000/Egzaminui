@@ -1,4 +1,4 @@
-#include "mylib.h"
+#include "programa.cpp"
 
 int main() {
     cout<<"Kaip noresite naudotis sia programa?\n";
@@ -18,8 +18,7 @@ int main() {
     int pasirinkimas= stoi(input);
     if (pasirinkimas == 1) {
         cout << "Pasirinkote pasikartojanciu zodziu skaiciavima tekste." << endl;
-        // Čia įdėkite kodą, kuris atlieka pasikartojančių žodžių skaičiavimą
-        // Pavyzdžiui, galite naudoti funkciją countWordsInText();
+        pasirinko1(); // Čia įdėkite kodą, kuris atlieka pasikartojančių žodžių skaičiavimą tekste
     } else if (pasirinkimas == 2) {
         cout << "Pasirinkote URL adresu suradima tekste." << endl;
         // Čia įdėkite kodą, kuris atlieka URL adresų suradimą tekste
